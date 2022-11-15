@@ -10,4 +10,49 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    transition: all 0.2s linear;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    box-shadow: 10px 10px 150px white;
+    cursor: pointer;
+    content: url("https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/126175158_669374687280923_2953435101670281053_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5vE-hcOlwMQAX-KF1Ht&_nc_ht=scontent.fhan14-1.fna&oh=00_AfBwyr2w2oIne1NaZRalE5NJZMW6uVkTJugCO7usnh8ikw&oe=639B0031")
+}
+
+.me {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.me h1 {
+    background: -webkit-linear-gradient(rgb(255, 37, 186), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.me p {
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
+
+footer a {
+    background: -webkit-linear-gradient(rgb(255, 37, 186), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

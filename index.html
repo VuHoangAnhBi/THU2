@@ -7,8 +7,9 @@
   <META NAME="Keywords" CONTENT="">
   <META NAME="Description" CONTENT="">
     <link rel="stylesheet" href="index.css">
-  <style>
-  html, body {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      html, body {
   height: 100%;
   padding: 0;
   margin: 0;
@@ -24,7 +25,27 @@ canvas {
 
  <BODY>
   <canvas id="pinkboard"></canvas>
-  <img class="thu" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/312451346_1418892705268063_2568528925653280646_n.jpg?stp=dst-jpg_s206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=p02zyWghwUEAX-jUXhI&_nc_oc=AQkFX6R1XR9FCKu5VGZigrFbKKHQdRZ0yJ3wL9y6VTl_kl_-DWyU10a5Mue8h7UdKrdiVnnWJSbuj466Ewm25ToP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ-BQuPwGP7-e9Okc789CGe9X782AkJgBNzUEKfrJY6iQ&oe=63907E36"></img>
+  <a href="https://vuhoanganhbi.github.io/thu-birthday/?fbclid=IwAR1CNfXkyBDbxqNE1nlRr3fc1PJQfkO502aVGi2I6trU3wI46beTisvABCo" target="_blank">
+    <img class="thu" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/312451346_1418892705268063_2568528925653280646_n.jpg?stp=dst-jpg_s206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=p02zyWghwUEAX-jUXhI&_nc_oc=AQkFX6R1XR9FCKu5VGZigrFbKKHQdRZ0yJ3wL9y6VTl_kl_-DWyU10a5Mue8h7UdKrdiVnnWJSbuj466Ewm25ToP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ-BQuPwGP7-e9Okc789CGe9X782AkJgBNzUEKfrJY6iQ&oe=63907E36"></img>
+  </a>
+
+  <div class="me">
+    <h1>Happy birthday to my Thu</h1>
+    <h2>5/11/2003-28/11/2003   ----   5/11/2022-28/11/2022</h2>
+    <p>Lí do anh thích chụp ảnh hay quay video của em là đây đó. Để làm cái này đó mà không thích cho người ta chụp và anh cũng muốn lưu giữ kỉ niệm.<br>
+      Giờ nhá!!! Ngắm trái tim một lúc đi rùi <span style="color: red">di chuột</span> vào cái ảnh ý, xong rồi <span style="color: red">click</span> nó và tận hưởng thui.<br>
+      <span style="color: red">SOS</span>: do mắt thẩm mỹ của tui không được tốt cho lắm nên làm không được đẹp lắm đou.
+    </p>
+  </div>
+
+  <footer>
+    <h2>
+      Made by 
+      <a href="https://www.facebook.com/HoangBiAnh10" target="_blank">Vũ Hoàng Anh</a> 
+      with love
+    </h2>
+  </footer>
+
   <script>
   /*
  * Settings
@@ -219,7 +240,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#ea80b0';
+    context.fillStyle = 'red';
     context.fill();
     // create the image
     var image = new Image();
